@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { index, ping } from "../controllers/index.rotes.js";
+import { ping } from "../controllers/index.rotes.js";
 
 const router = Router();
 
