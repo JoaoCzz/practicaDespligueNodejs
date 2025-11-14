@@ -23,6 +23,7 @@ export const getProducto = async (req, res) => {
     res.json(rows[0]);
   } catch (error) {
     return res.status(500).json({ message: "Algo salio mal" });
+  
   }
 };
 
