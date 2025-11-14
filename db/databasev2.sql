@@ -19,7 +19,7 @@ INSERT INTO productos (nombre, precio, stock) VALUES
 ('Dell OptiPlex 7010', 1100.00, 4);      
 
 CREATE TABLE usuarios (
-  id int(11)  AUTO_INCREMENT PRIMARY KEY,
+  id int  AUTO_INCREMENT PRIMARY KEY,
   nombre varchar (50) NOT NULL,
   apellidos varchar (255) NOT NULL,
   dni char(9) unique NOT NULL,
